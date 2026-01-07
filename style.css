@@ -1,0 +1,59 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #151414;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #f15b22;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn-white {
+  background: #fff;
+  color: #f15b22;
+}
+
+/* ================= HERO ================= */
+.hero {
+  background: url(images/banner/banner1.png) no-repeat center/cover;
+  padding: 200px 0;
+  min-height: 100vh;
+}
+
+.hero-content {
+  max-width: 37%;
+  text-align: right;
+  margin-left: auto;
+  padding-right: 230px;
+}
+
+.hero-content h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  color: #444343;
+  margin-bottom: 30px;
+}
