@@ -161,3 +161,57 @@ h3 {
   font-size: 36px;
   margin-bottom: 20px;
 }
+/* ================= FOOTER ================= */
+.footer {
+  background: #151414;
+  color: #fff;
+  padding: 100px 230px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.footer-left {
+  max-width: 485px;
+}
+
+.footer-left h3 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  color: #f8f8f8;
+}
+
+.footer-left p {
+  color: #d9dbe1;
+  margin: 10px 0;
+  padding-bottom: 24px;
+}
+
+.social {
+  display: inline-block;
+}
+
+.social a {
+  margin-right: 18px;
+}
+
+.footer-right {
+  max-width: 325px;
+}
+
+.footer-right h3 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  color: #f8f8f8;
+}
+
+.footer-right input {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: none;
+}
